@@ -72,17 +72,19 @@ public class Kafatopu
                 {
                     case ConsoleKey.W:
                         oyuncu1.Yukari();
-                        //oyuncu2.Yukari();
+                        oyuncu2.Yukari();
                         break;
                     case ConsoleKey.S:
                         oyuncu1.Asagi();
-                        //oyuncu2.Asagi();
+                        oyuncu2.Asagi();
                         break;
 
                     case ConsoleKey.UpArrow:
+                        oyuncu1.Yukari();
                         oyuncu2.Yukari();
                         break;
                     case ConsoleKey.DownArrow:
+                        oyuncu1.Asagi();
                         oyuncu2.Asagi();
                         break;
 
