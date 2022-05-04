@@ -1,4 +1,4 @@
-﻿namespace B211200300_KafaTopu;
+﻿namespace KafaTopu;
 
 class Top
 {

@@ -1,4 +1,4 @@
-﻿namespace B211200300_KafaTopu;
+﻿namespace KafaTopu;
 
 public class Saha
 {

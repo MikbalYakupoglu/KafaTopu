@@ -6,7 +6,7 @@
  */
 
 using System.Threading.Channels;
-using B211200300_KafaTopu;
+using KafaTopu;
 
 
 // Main Menu
