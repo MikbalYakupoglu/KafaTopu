@@ -20,7 +20,7 @@ public class Oyuncular
         if ((Y - 1 - (Uzunluk / 2)) != 0)
         {
             Console.SetCursorPosition(X, (Y + (Uzunluk / 2)) - 1);
-            Console.Write("\0");
+            Console.Write(" ");
             Y--;
             Ciz();
         }
@@ -31,7 +31,7 @@ public class Oyuncular
         if ((Y + 1 + (Uzunluk / 2)) != sahaBoyu)
         {
             Console.SetCursorPosition(X, (Y - (Uzunluk / 2)));
-            Console.Write("\0");
+            Console.Write(" ");
             Y++;
             Ciz();
         }

@@ -8,7 +8,6 @@ class Top
     private int yonY;
     private int sahaUzunlugu;
     private int sahaGenisligi;
-    private int i;
     public int yon { get; set; }
 
 
@@ -25,7 +24,7 @@ class Top
     public void Logic(Oyuncular oyuncu1, Oyuncular oyuncu2)
     {
         Console.SetCursorPosition(X,Y);
-        Console.Write("\0");
+        Console.Write(" ");
         if (Y <= 1 || Y >=sahaUzunlugu-2)
         {
             yonY *= -1;

@@ -59,6 +59,7 @@ public class Kafatopu
             top.Ciz();
             while (top.X != 0 && top.X != genislik)
             {
+
                 if (top.X <= 1)
                 {
                     skor2++;
