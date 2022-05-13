@@ -1,10 +1,3 @@
-﻿/*
- * B211200300
- * Muhammet İkbal Yakupoğlu
- * Nesneye Dayalı Programlama
- * KafaTopu Oyunu Projesi
- */
-
 using System.Threading.Channels;
 using KafaTopu;
 
